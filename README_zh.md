@@ -1,22 +1,19 @@
 # react-position-select-hm
 position select hm
 
-[中文文档](https://github.com/wafersystems/react-position-select-mh/blob/master/README_zh.md)
-
-
 威发微服务位置选择组件定制内容/Wafer microservice position select hm component
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/wafersystems/react-position-select-hm)
 [![npm](https://img.shields.io/npm/v/react-position-select-hm.svg)](https://www.npmjs.com/package/react-position-select-hm)
 [![NPM downloads](https://img.shields.io/npm/dm/react-position-select-hm.svg)](https://www.npmjs.com/package/react-position-select-hm)
 
-## Example
+## 示例图片
 
 ![Example](./example.png)
 
-## How to use
+## 如何使用
 
-### install
+### 安装
 
 `yarn add react-position-select-hm`
 
@@ -31,7 +28,7 @@ import {PositionSelectHM} from 'react-position-select-hm';
 
 属性  | 描述 | 类型 | 默认值
 ------------- | ------------- | --------------| ------------- 
-spaceTree  |   空间数据（[Data](###Space Data)） | array | []
+spaceTree  |   空间数据（[数据](###空间数据)） | array | []
 showPositionSelect | 组件是否显示 | bool | false
 defaultValue | 默认初始化数据 （[数据](### 默认初始化数据)） | obj | {building:{大楼对象},floor:{楼层对象}}
 onClose | 点击关闭X回调 | func | function(){}
@@ -56,7 +53,7 @@ floorName:PropTypes.string, // 楼层名称key
 floorId:PropTypes.string, // 楼层id key
 
 
-### Space Data
+### 空间数据
 
 ````
 export const space3 = [
@@ -110,8 +107,7 @@ export const space3 = [
 
 ````
 
-### defaultValue
-
+### 默认初始化数据
 
 ```
 
@@ -119,7 +115,7 @@ export const space3 = [
 
 ```
 
-### Development
+### 开发
 
 ````
 $ git clone https://github.com/wafersystems/react-position-select-hm.git
